@@ -139,45 +139,42 @@ By combining multi-agent workflows, query rewriting, and validation, it demonstr
 
 ## Output:
 
-### ---CALL AGENT---
+#### ---CALL AGENT---
+
+Agent model initialized and tools bound.
+Agent generated a response.
+
+#### ---CHECK RELEVANCE---
+
+Running relevance check with retrieved documents...
+
+#### ---DECISION: DOCS RELEVANT---
+
+#### ---CALL AGENT---
 
 Agent model initialized and tools bound.
 
 Agent generated a response.
 
-### ---CHECK RELEVANCE---
+#### ---CHECK RELEVANCE---
 
 Running relevance check with retrieved documents...
 
-### ---DECISION: DOCS RELEVANT---
-
-### ---CALL AGENT---
-
-Agent model initialized and tools bound.
+#### ---DECISION: DOCS RELEVANT---
 
 Agent generated a response.
 
-### ---CHECK RELEVANCE---
+#### ---CHECK RELEVANCE---
 
 Running relevance check with retrieved documents...
 
-### ---DECISION: DOCS RELEVANT---
-
-Agent generated a response.
-
-### ---CHECK RELEVANCE---
+#### ---DECISION: DOCS RELEVANT---
 
 Running relevance check with retrieved documents...
 
-### ---DECISION: DOCS RELEVANT---
+#### ---DECISION: DOCS RELEVANT---
 
-Running relevance check with retrieved documents...
-
-### ---DECISION: DOCS RELEVANT---
-
-### ---DECISION: DOCS RELEVANT---
-
-### ---GENERATE---
+#### ---GENERATE---
 
 Generating final response from retrieved documents...
 
@@ -185,4 +182,4 @@ Response generated successfully.
 
 LangChain is a framework for building applications powered by large language models. It provides a set of tools and libraries to help developers create AI-powered interfaces and workflows. I don't have more specific information about LangChain beyond this general description.
 
-### ---END---
+#### ---END---

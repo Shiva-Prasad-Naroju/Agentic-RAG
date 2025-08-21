@@ -140,8 +140,11 @@ By combining multi-agent workflows, query rewriting, and validation, it demonstr
 ## Output:
 
 - ---CALL AGENT---
+
 Agent model initialized and tools bound.
+
 Agent generated a response.
+
 - ---CHECK RELEVANCE---
 
 Running relevance check with retrieved documents...
